@@ -12,7 +12,7 @@ None needed
 
 
 ```md
-![Website Screenshot](assets\images\website-screenshot.png)
+![alt text](assets\images\website-screenshot.png)
 ```
 
 ## Credits

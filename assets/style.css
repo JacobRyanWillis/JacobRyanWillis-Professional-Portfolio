@@ -168,7 +168,7 @@ section article h2 {
 }
 
 .hero {
-    background-image: url(./assets/images/heroimage.jpg);
+    background-image: url(./images/heroimage.jpg);
     background-size: cover;
     background-position: center;
     border-bottom: 1rem solid black;

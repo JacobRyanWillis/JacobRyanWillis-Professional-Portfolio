@@ -10,10 +10,9 @@ None needed
 
 ## Usage
 
+Portfolio Screenshot:
 
-```md
-![alt text](https://github.com/JacobRyanWillis/JacobRyanWillis-Professional-Portfolio/blob/main/assets/images/WebsiteScreenshot.png?raw=true)
-```
+![Website-Screenshot](assets\images\WebsiteScreenshot.png?raw=true)
 
 ## Credits
 

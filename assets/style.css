@@ -3,13 +3,13 @@
     padding: 0;
     box-sizing: border-box;
 }
-
+/* background image for page */
 body {
     background-image: url(./images/background-wallpapers-beautiful-website-sphere-different-backgrounds-2hiuje6.jpg);
     background-size: cover;
 }
 
-/* Font size is 10px due to font-size 62.5% */
+/* Font size is 10px due to change in HTML 62.5% makes it easier to track.*/
 html {
     font-size: 62.5%; 
     font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
@@ -40,7 +40,7 @@ a {
     text-decoration: none;
     color: white;
 }
-
+/* Cosmetic for nav bar and footer */
 a:hover {
     text-decoration:underline;
 }
@@ -131,14 +131,14 @@ section article h2 {
 
 .resizeimg {
     width: 40rem;
-    height: 30rem;
-    margin: 1rem;
+    height: 25rem;
+    margin: 1.5rem;
 }
 
 #resizeimg1 {
     width: 40rem;
-    height: 30rem;
-    margin: 1rem;
+    height: 25rem;
+    margin: 1.5rem;
 }
 
 #avatar {

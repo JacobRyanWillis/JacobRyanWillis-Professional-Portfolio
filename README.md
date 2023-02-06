@@ -12,7 +12,7 @@ None needed
 
 
 ```md
-![alt text](http://assets/images/WebsiteScreenshot.png)
+![alt text](https://github.com/JacobRyanWillis/JacobRyanWillis-Professional-Portfolio/blob/main/assets/images/WebsiteScreenshot.png?raw=true)
 ```
 
 ## Credits

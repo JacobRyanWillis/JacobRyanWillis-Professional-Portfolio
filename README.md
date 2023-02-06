@@ -12,7 +12,7 @@ None needed
 
 Portfolio Screenshot:
 ```md
-![Website-Screenshot](assets\images\WebsiteScreenshot.png?raw=true)
+![Website-Screenshot](assets/images/WebsiteScreenshot.png?raw=true)
 ```
 ## Credits
 

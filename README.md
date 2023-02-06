@@ -11,9 +11,9 @@ None needed
 ## Usage
 
 Portfolio Screenshot:
-```md
-![Website-Screenshot](assets/images/WebsiteScreenshot.png?raw=true)
-```
+
+![WebsiteScreenshot](./assets/images/WebsiteScreenshot.png)
+
 ## Credits
 
 <pre> Kaia Scheirman </pre>

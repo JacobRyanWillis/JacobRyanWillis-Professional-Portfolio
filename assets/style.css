@@ -94,6 +94,15 @@ footer ul li {
     padding: 3rem;
 }
 
+.hero {
+    background-image: url(./images/heroimage.jpg);
+    background-size: cover;
+    background-position: center;
+    border-bottom: 1rem solid black;
+    height: 75rem;
+    margin-bottom: 5rem;
+}
+
 section article h2 {
     background-image: url(./images/black\ background\ image.jpg);
     border-right:  .5rem solid white;
@@ -167,14 +176,6 @@ section article h2 {
 
 }
 
-.hero {
-    background-image: url(./images/heroimage.jpg);
-    background-size: cover;
-    background-position: center;
-    border-bottom: 1rem solid black;
-    height: 75rem;
-    margin-bottom: 5rem;
-}
 
 @media all and (max-width: 768px) {
     header, footer {

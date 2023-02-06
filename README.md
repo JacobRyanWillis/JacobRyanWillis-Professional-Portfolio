@@ -11,7 +11,9 @@ None needed
 ## Usage
 
 Portfolio Screenshot:
+
 https://jacobryanwillis.github.io/JacobRyanWillis-Professional-Portfolio/
+
 ![WebsiteScreenshot](./assets/images/WebsiteScreenshot.png)
 
 ## Credits

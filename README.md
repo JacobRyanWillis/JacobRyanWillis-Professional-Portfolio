@@ -17,6 +17,7 @@ Portfolio Screenshot:
 ## Credits
 
 <pre> Kaia Scheirman </pre>
+<pre> Vincent Yang </pre>
 
 ## License
 

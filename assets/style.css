@@ -7,6 +7,7 @@
 body {
     background-image: url(./images/background-wallpapers-beautiful-website-sphere-different-backgrounds-2hiuje6.jpg);
     background-size: cover;
+    display:flex;
 }
 
 /* Font size is 10px due to change in HTML 62.5% makes it easier to track.*/
@@ -176,10 +177,7 @@ section article h2 {
 }
 
 @media all and (max-width: 768px) {
-    header {
-        width: 95rem;
-    }
-    footer {
+    header, footer {
         width: 95rem;
     }
     .about-me-panel {
@@ -190,6 +188,11 @@ section article h2 {
     }
     .about-me-p {
         overflow: auto;
+
     }
-          
+    #avatar {
+        height: 30rem;
+        margin: 0;
+    
+    }  
 }

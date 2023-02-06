@@ -42,10 +42,10 @@ a {
     color: white;
 }
 /* Cosmetic for nav bar and footer */
-a:hover {
+li a:hover {
     text-decoration:underline;
 }
-a:visited {
+li a:visited {
     color:rgb(150, 3, 150);
 }
 
@@ -142,14 +142,28 @@ section article h2 {
 .resizeimg {
     width: 40rem;
     height: 25rem;
+    margin: 10rem;
+}
+/* To make even with other images Wdith: 40rem, Height: 25rem; */
+#resizeimg1 {
+    background-image: url(./images/first-project.png);
+    width: 70rem;
+    height: 50rem;
     margin: 1.5rem;
+    border: solid black;
 }
 
-#resizeimg1 {
-    width: 40rem;
-    height: 25rem;
-    margin: 1.5rem;
+#text-overlay {
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: white;
+    text-align: left;
+    margin-top: 40rem;
+    background-color: black;
+    width: 50%;
+    border: solid white;
 }
+
+
 
 #avatar {
     height: 50rem;
@@ -169,11 +183,10 @@ section article h2 {
     margin-left: 5rem;
 }
 
-.link-to-applications img:hover {
+.link-to-applications #resizeimg1,#text-overlay:hover {
     filter:contrast(200%);
     box-shadow: 0rem 0rem 5rem 0rem white;
     transition: 1s;
-
 }
 
 
@@ -182,7 +195,8 @@ section article h2 {
         width: 95rem;
     }
     .about-me-panel {
-       height: 20rem;
+       height: 20rem; 
+       width: 100%;
     }
     #contact {
         display: none;

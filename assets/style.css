@@ -129,8 +129,9 @@ section article h2 {
 
 .work-panel {
     display: flex;
-    flex-direction: row;
     text-align: center;
+    flex-direction: column;
+    align-items: center;
 }
 
 .link-to-applications {
@@ -142,7 +143,7 @@ section article h2 {
 .resizeimg {
     width: 40rem;
     height: 25rem;
-    margin: 10rem;
+    margin: 1rem;
 }
 /* To make even with other images Wdith: 40rem, Height: 25rem; */
 #resizeimg1 {
@@ -164,6 +165,19 @@ section article h2 {
 }
 
 
+#mywork {
+    background-image: url(./images/black\ background\ image.jpg);
+    border-bottom:  .5rem solid white;
+    padding-left: 5rem;
+    padding-right: 5rem;
+    color: white;
+    margin: 2rem;
+    text-align: center;
+}
+
+.bigimage {
+    display: flex;
+}
 
 #avatar {
     height: 50rem;
@@ -183,12 +197,17 @@ section article h2 {
     margin-left: 5rem;
 }
 
-.link-to-applications #resizeimg1,#text-overlay:hover {
+#resizeimg1:hover #text-overlay {
     filter:contrast(200%);
     box-shadow: 0rem 0rem 5rem 0rem white;
     transition: 1s;
 }
 
+#resizeimg1:hover {
+    filter:contrast(200%);
+    box-shadow: 0rem 0rem 5rem 0rem white;
+    transition: 1s;
+}
 
 @media all and (max-width: 768px) {
     header, footer {

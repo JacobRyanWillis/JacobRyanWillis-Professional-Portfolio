@@ -147,6 +147,14 @@ section article h2 {
 }
 /* To make even with other images Wdith: 40rem, Height: 25rem; */
 #resizeimg1 {
+    background-image: url(./images/fitnessappProject.png);
+    width: 70rem;
+    height: 50rem;
+    margin: 1.5rem;
+    border: solid black;
+}
+
+#resizeimg2 {
     background-image: url(./images/first-project.png);
     width: 70rem;
     height: 50rem;
@@ -175,7 +183,7 @@ section article h2 {
     text-align: center;
 }
 
-.bigimage {
+.projectimgs {
     display: flex;
 }
 
@@ -197,13 +205,13 @@ section article h2 {
     margin-left: 5rem;
 }
 
-#resizeimg1:hover #text-overlay {
+.projectimgs a:hover #text-overlay {
     filter:contrast(200%);
     box-shadow: 0rem 0rem 5rem 0rem white;
     transition: 1s;
 }
 
-#resizeimg1:hover {
+.projectimgs a:hover {
     filter:contrast(200%);
     box-shadow: 0rem 0rem 5rem 0rem white;
     transition: 1s;

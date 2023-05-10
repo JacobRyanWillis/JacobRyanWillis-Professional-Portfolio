@@ -148,6 +148,7 @@ section article h2 {
 /* To make even with other images Wdith: 40rem, Height: 25rem; */
 #resizeimg1 {
     background-image: url(./images/fitnessappProject.png);
+    background-size: cover;
     width: 70rem;
     height: 50rem;
     margin: 1.5rem;
@@ -156,6 +157,15 @@ section article h2 {
 
 #resizeimg2 {
     background-image: url(./images/first-project.png);
+    width: 70rem;
+    height: 50rem;
+    margin: 1.5rem;
+    border: solid black;
+}
+
+#resizeimg3 {
+    background-image: url(./images/The_Vault.png);
+    background-size: cover;
     width: 70rem;
     height: 50rem;
     margin: 1.5rem;
